@@ -1,0 +1,54 @@
+.gui-tab-header {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+
+.gui-tab-header nav {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	background-color: var(--tab-nav-background-color);
+}
+
+.gui-tab-nav-tab {
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+	padding-top: 5px;
+	padding-bottom: 3px;
+
+	font-size: .875rem;
+    line-height: 20px;
+
+	font-weight: 500;
+
+	border-width: 0;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: transparent;
+
+	color: var(--text-color);
+
+	cursor: pointer;
+
+	text-align: center;
+
+	background-color: var(--tab-nav-color);
+
+	flex: 0 0 auto;
+}
+
+.gui-tab-nav-tab:hover {
+	border-color: var(--tab-nav-hover-color);
+}
+
+.gui-tab-nav-tab-active {
+	border-color: var(--tab-nav-active-color);
+}
+
+.gui-tab-body {
+	width: 100%;
+	height: calc(100% - 30px);
+	position: relative;
+}

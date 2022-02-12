@@ -1,0 +1,21 @@
+.gui-input {
+	padding: 1px;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	border: 1px #3d4d65 solid;
+	border-radius: 0.25rem;
+	background: var(--input-body-color);
+	color: var(--input-text-color);
+}
+
+.gui-input:focus {
+	outline: none;
+}
+
+.gui-input:focus-visible {
+	outline: none;
+}
+
+.gui-input::placeholder {
+	color: var(--input-placeholder-text-color);
+}

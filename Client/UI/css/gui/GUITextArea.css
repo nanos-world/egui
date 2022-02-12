@@ -1,0 +1,11 @@
+.gui-textarea {
+	padding: 1px;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	border: 1px #3d4d65 solid;
+	border-radius: 0.25rem;
+	background: var(--input-body-color);
+	color: var(--input-text-color);
+	resize: none;
+	font-family: var(--font-family);
+}

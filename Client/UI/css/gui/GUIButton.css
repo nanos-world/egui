@@ -1,0 +1,125 @@
+.gui-button {
+    border: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gui-button[disabled]{
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+	cursor: not-allowed !important;
+}
+
+.gui-button:hover {
+    cursor: pointer;
+}
+
+.gui-button-style-default {
+    border-radius: .25rem;
+}
+
+.gui-button-style-rounded {
+    border-radius: 50rem;
+}
+
+.gui-button-style-outline {
+    border-radius: .25rem;
+    background: transparent !important;
+}
+
+.gui-button-style-outline.gui-button-color-primary {
+    border: var(--primary-color) 1px solid;
+    color: var(--primary-color);
+}
+
+.gui-button-style-outline.gui-button-color-primary:not([disabled]):hover {
+    border: var(--primary-hover-color) 1px solid;
+    color: var(--primary-hover-color);
+}
+
+.gui-button-style-outline.gui-button-color-secondary {
+    border: var(--secondary-color) 1px solid;
+    color: var(--secondary-color);
+}
+
+.gui-button-style-outline.gui-button-color-secondary:not([disabled]):hover {
+    border: var(--secondary-hover-color) 1px solid;
+    color: var(--secondary-hover-color);
+}
+
+.gui-button-style-outline.gui-button-color-success {
+    border: var(--success-color) 1px solid;
+    color: var(--success-color);
+}
+
+.gui-button-style-outline.gui-button-color-success:not([disabled]):hover {
+    border: var(--success-hover-color) 1px solid;
+    color: var(--success-hover-color);
+}
+
+.gui-button-style-outline.gui-button-color-danger {
+    border: var(--danger-color) 1px solid;
+    color: var(--danger-color);
+}
+
+.gui-button-style-outline.gui-button-color-danger:not([disabled]):hover {
+    border: var(--danger-hover-color) 1px solid;
+    color: var(--danger-hover-color);
+}
+
+.gui-button-style-outline.gui-button-color-warning {
+    border: var(--warning-color) 1px solid;
+    color: var(--warning-color);
+}
+
+.gui-button-style-outline.gui-button-color-warning:not([disabled]):hover {
+    border: var(--warning-hover-color) 1px solid;
+    color: var(--warning-hover-color);
+}
+
+.gui-button-color-primary {
+    background: var(--primary-color);
+    color: var(--text-color);
+}
+
+.gui-button-color-primary:not([disabled]):hover {
+    background: var(--primary-hover-color);
+}
+
+.gui-button-color-secondary {
+    background: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.gui-button-color-secondary:not([disabled]):hover {
+    background: var(--secondary-hover-color);
+}
+
+.gui-button-color-success {
+    background: var(--success-color);
+    color: var(--text-color);
+}
+
+.gui-button-color-success:not([disabled]):hover {
+    background: var(--success-hover-color);
+    color: var(--text-color);
+}
+
+.gui-button-color-danger {
+    background: var(--danger-color);
+    color: var(--text-color);
+}
+
+.gui-button-color-danger:not([disabled]):hover {
+    background: var(--danger-hover-color);
+    color: var(--text-color);
+}
+
+.gui-button-color-warning {
+    background: var(--warning-color);
+}
+
+.gui-button-color-warning:not([disabled]):hover {
+    background: var(--warning-hover-color);
+}

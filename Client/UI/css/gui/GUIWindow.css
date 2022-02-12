@@ -1,0 +1,65 @@
+.gui-window {
+    background-color: var(--window-body-color);
+    border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 24px;
+}
+
+.gui-window-header {
+    width: 100%;
+    height: 30px;
+    position: relative;
+
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+
+    background-color: var(--window-title-color);
+}
+
+.gui-window-drag-handle {
+	width: 100%;
+}
+
+.gui-window-drag-handle-with-close {
+    width: calc(100% - 30px);
+}
+
+.gui-window-title {
+    line-height: 30px;
+    margin-left: 8px;
+    color: var(--text-color);
+    user-select: none;
+	cursor: default !important;
+}
+
+.gui-window-close {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+
+    border-top-right-radius: 0.25rem;
+    background-color: var(--window-close-color);
+    border: 0;
+    color: var(--text-color);
+    user-select: none;
+
+    font-size: 1.2em;
+}
+
+.gui-window-close:hover {
+    background-color: var(--window-close-hover-color);
+}
+
+.gui-window-body {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.gui-window-body-with-title {
+    height: calc(100% - 30px);
+}

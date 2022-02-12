@@ -1,0 +1,51 @@
+:root {
+	--font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+
+	--primary-color: #078ce4;
+	--secondary-color: #565e72;
+	--success-color: #03bd5b;
+	--danger-color: #f13242;
+	--warning-color: #ff873a;
+
+	--primary-hover-color: #186dab;
+	--secondary-hover-color: #434959;
+	--success-hover-color: #158b59;
+	--danger-hover-color: #a4374a;
+	--warning-hover-color: #ad6a45;
+
+	--text-color: #f9f9fa;
+
+	--window-title-color: #1c232a;
+	--window-close-color: #1c232a;
+	--window-close-hover-color: #f13242;
+	--window-body-color: #2c3642;
+
+	--input-text-color: #ebeff3;
+	--input-body-color: #374355;
+	--input-placeholder-text-color: #b3b9be;
+
+	--checkbox-color: #ffffff;
+	--checkbox-hover-color: #dfdfdf;
+	--checkbox-checked-color: #078ce4;
+	--checkbox-checked-hover-color: #099dff;
+
+	--tab-nav-color: #3e4559;
+	--tab-nav-background-color: #323b4d;
+	--tab-nav-active-color: #078ce4;
+	--tab-nav-hover-color: #f9f9fa;
+
+	--slider-background-color: #cfcfcf;
+	--slider-thumb-color: #078ce4;
+}
+
+
+body {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	font-family: var(--font-family);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
