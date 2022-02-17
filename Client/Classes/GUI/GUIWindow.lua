@@ -9,8 +9,8 @@ function EGUI.Window:Constructor(posX, posY, width, height, title, titlebarEnabl
     EGUI.Element.Constructor(self, posX, posY, width, height, parent)
 
     self.m_Title = title
-    self.m_TitlebarEnabled = titlebarEnabled ~= nil and titlebarEnabled or true
-    self.m_CloseButtonEnabled = closeButtonEnabled ~= nil and closeButtonEnabled or true
+    self.m_TitlebarEnabled = titlebarEnabled == nil and true or titlebarEnabled
+    self.m_CloseButtonEnabled = closeButtonEnabled == nil and true or closeButtonEnabled
 
     EGUI.Manager:CallEvent("GUIWindowCreate", self:GetId(), self.m_PosX, self.m_PosY, self.m_Width, self.m_Height, self.m_Title, self.m_TitlebarEnabled, self.m_CloseButtonEnabled, self.m_Parent and self.m_Parent:GetId() or nil)
 end
