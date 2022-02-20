@@ -10,7 +10,7 @@ EGUI.Image.Fit = {
 }
 
 function EGUI.Image:Constructor(posX, posY, width, height, path, parent)
-	EGUI.Utils.CheckArgs("EGUI.Window:Constructor", "number", "number", "number", "number", "string", "?table")
+	EGUI.Utils.CheckArgs("EGUI.Image:Constructor", "number", "number", "number", "number", "string", "?table")
     EGUI.Element.Constructor(self, posX, posY, width, height, parent)
 
     self.m_Path = path
