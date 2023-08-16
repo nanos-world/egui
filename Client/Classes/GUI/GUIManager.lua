@@ -4,7 +4,7 @@ function Manager:Constructor()
     self.m_Ready = EGUI.Classlib.Bind(Manager.Ready, self)
     self.m_Handler = EGUI.Classlib.Bind(Manager.Handler, self)
 
-    self.m_WebUI = WebUI("GUI", "file:///UI/index.html", true)
+    self.m_WebUI = WebUI("GUI", "file:///UI/index.html", WidgetVisibility.Visible)
     self.m_WebUI:Subscribe("Ready", self.m_Ready)
 
     self.m_Id = 1

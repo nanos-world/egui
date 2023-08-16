@@ -11,8 +11,8 @@ jobs:
     name: Publish package
     steps:
       - uses: actions/checkout@v2
-      - name: Nanos Store Action
-        uses: nanos-world/nanos-store-action@v1.0
+      - name: Nanos Marketplace Action
+        uses: nanos-world/nanos-marketplace-action@v1.0
         with:
           folder: ''
           name: 'egui'
