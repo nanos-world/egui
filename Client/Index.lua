@@ -41,3 +41,5 @@ local files = {
 for _, file in ipairs(files) do
 	Package.Require(file)
 end
+
+Package.Export("EGUI", EGUI)
