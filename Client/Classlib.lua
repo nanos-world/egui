@@ -1,6 +1,6 @@
 EGUI.Classlib = {}
 
-local asset = assert
+local assert = assert
 local type = type
 local setmetatable = setmetatable
 local getmetatable = getmetatable
